@@ -1,0 +1,56 @@
+#titulo {
+    animation-name: mianimacion;
+    width: 200px;
+    bottom: 700px;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    position: absolute;
+    border-radius: 50px;
+    animation-direction: unset;
+    animation-timing-function: unset;
+    animation-fill-mode: forwards;
+}
+
+@keyframes mianimacion {
+    0% { top: 0px; }
+    25% { top: 50px; }
+    100% { top: 30px; left: 140px;}
+}
+
+#carta {
+    animation-name: carta;
+    width: 200px;
+    right: 700px;
+    animation-duration: 4s;
+    animation-delay: 6s;
+    position: absolute;
+    animation-direction: unset;
+    animation-timing-function: unset;
+    animation-fill-mode: forwards;
+}
+
+@keyframes carta {
+    0% { top: 0px; left: 0px;}
+    25% { left: 50px; }
+    100% { top: 10px; left: 20px;}
+}
+
+#pagina {
+    animation-name: animacionPagina;
+    width: 200px;
+    right: 700px;
+    animation-duration: 6s;
+    animation-delay: 8s;
+    position: absolute;
+    animation-direction: unset;
+    animation-timing-function: unset;
+    animation-fill-mode: forwards;
+}
+
+@keyframes animacionPagina {
+    0% { top: 0px; left: 0px;}
+    25% { top: 50px; }
+    50% { top: 150px; }
+    75% { top: 350px; }
+    100% { top: 440px; left: 70px;}
+}

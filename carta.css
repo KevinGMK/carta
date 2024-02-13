@@ -1,0 +1,87 @@
+#bloque,#bloque1,#bloque2,#bloque3,#bloque4,#bloque5{
+  background-color: red;
+}
+#bloque,#bloque1 {
+  width: 400px;
+  height: 10px;
+  border-radius: 50px;
+}
+
+#bloque2,#bloque3{
+  width: 10px;
+  height: 220px;
+  border-radius: 50px;
+}
+
+#bloque4, #bloque5 {
+  width: 220px;
+  height: 10px;
+  border-radius: 50px;
+}
+#bloque {
+  position: absolute;
+  top: 200px;
+  left: 20px;
+}
+
+#bloque1 {
+  position: absolute;
+  top: 410px;
+  left: 20px;
+}
+
+#bloque2 {
+  position: absolute;
+  top: 200px;
+  left: 20px;
+}
+
+#bloque3 {
+  position: absolute;
+  top: 200px;
+  left: 410px;
+}
+
+#bloque4 {
+  position: absolute;
+  left: 206px;
+  top: 235px;
+  transform: none;
+  transform: rotate(160deg);
+}
+
+#bloque5 {
+  position: absolute;
+  left: 15px;
+  top: 235px;
+  transform: none;
+  transform: rotate(20deg);
+}
+
+@media screen and (max-width: 600px) {
+  #bloque,
+  #bloque1,
+  #bloque2,
+  #bloque3,
+  #bloque4,
+  #bloque5 {
+    font-size: 24px;
+    border-radius: 25px;
+  }
+}
+#info{
+  width: 400px;
+  position: absolute;
+  top: 280px;
+  left: 30px;
+  font-size: 40px;
+  font-family: Mi fuente;
+}
+#info2{
+  width: 400px;
+  position: absolute;
+  top: 340px;
+  left: 30px;
+  font-size: 40px;
+  font-family: Mi fuente;
+}
