@@ -1,0 +1,80 @@
+/* Estilos para pantallas de escritorio */
+@font-face {
+  font-family: 'Mi Fuente';
+  src: url("../letras/Lover.otf"); /* Asegúrate de reemplazar 'mi-fuente.ttf' con el nombre de tu archivo de fuente */
+}
+@font-face{
+  font-family: "Fuente2";
+  src: url("../letras/ChrisMaster.ttf");
+}
+@font-face{
+  font-family: "Fuente3";
+  src: url("../letras/DaddyBee.otf");
+}
+@font-face{
+  font-family: "Fuente4";
+  src: url("../letras/Ziggy\ Zoe.ttf");
+}
+
+body {
+  font-family: 'Mi Fuente', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+  background: green;
+}
+  
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+  
+  /* Estilos para pantallas móviles */
+@media screen and (max-width: 768px) {
+    .container {
+      width: 100%;
+    }
+}
+
+#titulo{
+  left: 100px;
+  color: #000000;
+  text-align: center;
+  font-size: 20px;
+  font-family: fuente2;
+  text-shadow: -50px 20px 10px rgba(0, 255, 0, 0.76);
+}
+
+/* lista de barra*/
+
+li{
+	position: absolute;
+	display: inline-block;
+}
+
+li > a{
+  width: 250px;
+	display: block;
+	color: white;
+  border-radius: 50px;
+  background: violet;
+	font-family: fuente3;
+  text-align: center;
+	text-decoration: none;
+  font-size: 40px;
+}
+
+li a:hover{
+  background-color: aquamarine;
+  background: yellow;
+	color: black;
+	transition: all .3s;
+}
+
+/* fin de la barra*/
