@@ -14,7 +14,7 @@
 @keyframes mianimacion {
     0% { top: 0px; }
     25% { top: 50px; }
-    100% { top: 30px; left: 140px;}
+    100% { top: 30px; left: 120px;}
 }
 
 #carta {
@@ -32,7 +32,7 @@
 @keyframes carta {
     0% { top: 0px; left: 0px;}
     25% { left: 50px; }
-    100% { top: 10px; left: 20px;}
+    100% { top: 10px; left: 10px;}
 }
 
 #pagina {
@@ -52,5 +52,5 @@
     25% { top: 50px; }
     50% { top: 150px; }
     75% { top: 350px; }
-    100% { top: 440px; left: 70px;}
+    100% { top: 440px; left: 50px;}
 }
