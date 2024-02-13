@@ -1,7 +1,7 @@
 #titulo {
     animation-name: mianimacion;
     width: 200px;
-    bottom: 700px;
+    bottom: 800px;
     animation-duration: 4s;
     animation-delay: 2s;
     position: absolute;
@@ -14,7 +14,7 @@
 @keyframes mianimacion {
     0% { top: 0px; }
     25% { top: 50px; }
-    100% { top: 30px; left: 120px;}
+    100% { top: 30px; left: 100px;}
 }
 
 #carta {
@@ -30,9 +30,10 @@
 }
 
 @keyframes carta {
-    0% { top: 0px; left: 0px;}
-    25% { left: 50px; }
-    100% { top: 10px; left: 10px;}
+    0% { top: 0px; right: 0px;}
+    25% { right: 50px; }
+    50%{right: 150px;}
+    100% { top: 10px; right: 220px;}
 }
 
 #pagina {
@@ -52,5 +53,5 @@
     25% { top: 50px; }
     50% { top: 150px; }
     75% { top: 350px; }
-    100% { top: 440px; left: 50px;}
+    100% { top: 440px; left: 40px;}
 }
