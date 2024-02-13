@@ -1,19 +1,19 @@
 /* Estilos para pantallas de escritorio */
 @font-face {
   font-family: 'Mi Fuente';
-  src: url("../letras/Lover.otf"); /* Asegúrate de reemplazar 'mi-fuente.ttf' con el nombre de tu archivo de fuente */
+  src: url("letras/Lover.otf"); /* Asegúrate de reemplazar 'mi-fuente.ttf' con el nombre de tu archivo de fuente */
 }
 @font-face{
   font-family: "Fuente2";
-  src: url("../letras/ChrisMaster.ttf");
+  src: url("letras/ChrisMaster.ttf");
 }
 @font-face{
   font-family: "Fuente3";
-  src: url("../letras/DaddyBee.otf");
+  src: url("letras/DaddyBee.otf");
 }
 @font-face{
   font-family: "Fuente4";
-  src: url("../letras/Ziggy\ Zoe.ttf");
+  src: url("letras/Ziggy\ Zoe.ttf");
 }
 
 body {
