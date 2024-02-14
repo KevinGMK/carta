@@ -1,0 +1,29 @@
+body {
+    background: url(img/52f7b22f16343324c5f88d1928654c77.jpg);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+  
+  #carta2 {
+    width: 80%;
+    margin: auto;
+    border: 1px solid #eeff00;
+    padding: 20px;
+    background-color: #deff58;
+    box-shadow: 10px 10px 5px #aaaaaa;
+  }
+  
+  h1 {
+    color: #f75d59;
+    text-align: center;
+  }
+  
+  p {
+    color: #6a737b;
+    font-size: 18px;
+    line-height: 1.6;
+  }

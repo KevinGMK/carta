@@ -1,0 +1,41 @@
+.heart {
+    top: 0px;
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    position: relative;
+    transform: rotate(45deg);
+    box-shadow: -20px 20px 150px #f20044;
+    animation: mover 2s forwards, palpitar 0.5s linear infinite;
+}
+
+.heart::before {
+    content: "";
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    background: red;
+    right: 50%;
+    border-radius: 50%;
+    box-shadow: 20px 20 150px #f20044;
+}
+
+.heart::after {
+    content: "";
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    background: red;
+    top: -50%;
+    border-radius: 50%;
+    box-shadow: 20px 20 150px #f20044;
+}
+
+@keyframes palpitar {
+    0% { transform: rotate(45deg) scale(1.10); }
+    100% { transform: rotate(45deg) scale(0.8); }
+}
+
+@keyframes mover {
+    100% { top: 700px; }
+}
